@@ -72,7 +72,7 @@
         </section>
 
         <section class="count">
-            <h1>Vi har 4 kampagner blandt vores modeller</h1>
+            <h1>Vi har 5 kampagner blandt vores modeller</h1>
         </section>
 
         <div class="button">
@@ -105,6 +105,21 @@
             function closeNav() {
             document.getElementById("myNav").style.width = "0%";
             }
+
+        /*script til filter tabs*/
+        function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                 tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+                }
         </script>
     </body>
 </html>
