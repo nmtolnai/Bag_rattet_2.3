@@ -202,6 +202,21 @@ footer p{
 
 
 /*__________________________Kampagne-siden___________________________*/
+/*-----Grid opsætning-----*/
+.container-campaign{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "filter filter filter filter filter filter"
+    "count count count count count count"
+    "gooddeals gooddeals gooddeals gooddeals gooddeals gooddeals"
+    "hybcar hybcar hybcar hybcar hybcar hybcar"
+    ;}
+/*Grid opsætning - Slut*/
+
+
 /*----Den øverste sektion med SUV, Hatchback og Stationcar----*/
 .campaign-filter{
     grid-area: filter;
@@ -336,6 +351,36 @@ footer p{
     letter-spacing: 2px;
 }
 /*SLUT - Antal kampagner-tekst*/
+
+/*SECTION - Kampagnen om gode tilbud*/
+.good-deals-camp{
+    grid-area: gooddeals;
+}
+
+.good-deals-camp img{
+    width: 100%;
+    height: auto;
+}
+
+/*SECTION - Kampganen om Hybrid Stationcar Light*/
+.hybrid-stationcar{
+    grid-area: hybcar;
+}
+
+.hybrid-stationcar img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*__________________________Information om bilerne-siden___________________________*/
 
