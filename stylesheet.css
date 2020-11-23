@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*body*/
+body{
+    background-color: #E6EAEB;
+}
+
+/*-----Knap design på siden-----*/
+.button{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    width: 130px;
+    border: none;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #2e2a27;
+    border: solid #dd1538;
+    box-shadow: 0px 8px 15px #0000001a;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    padding: 20px 0;
+}
+
+.btn:hover{
+    background-color: #dd1538;
+    box-shadow: 0px 15px 20px #f190a0;
+    color: white;
+    transform: translateY(-3px);
+}
+/*SLUT*/
+
+/*Header*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 0.5rem;
+    background-image: url(./billeder/cover_mobil.jpg);
+    background-repeat: no-repeat;
+    background-size: 130% auto;
+    background-position-x: 40%;
+    min-height: 33rem;
+}
+
+/*Cover*/
+.cover-image {
+    display: none;
+}
+
+.cover-image img {
+    width: 100%;
+    height: auto;
+}
+
+/*Logo*/
+.wrapper .logo img {
+    width: 45%;
+    height: auto;
+}
+
+/*Navigationsmenu*/
+.wrapper{
+    width: 100%;
+}
+
+.wrapper .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: none;
+    height: 60px;
+}
+
+/*Burger-menu*/
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #dd1538;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+.menu-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+.menu a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 3em;
+    color: #E6EAEB;
+    display: block;
+    transition: 0.3s;
+  }
+
+.menu a:hover {
+    color: #404b96;
+
+}
+  
+.menu a:hover, .overlay a:focus {
+    color: #404b96;
+}
+  
+.menu .closebtn {
+    position: absolute;
+    top: 0.3rem;
+    right: 1rem;
+    font-size: 6em;
+}
+/*Burger-menu slut*/
+
+/*burger-menu's streger*/
+span{
+    font-size:40px;
+    cursor:pointer;
+    color: #E6EAEB;
+}
+/*Slut*/
+
+/*Banner tekst*/
+.banner-text {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-text h1 {
+    color: #E6EAEB;
+    text-align: center;
+    font-size: 6em;
+    position: relative;
+    top: -20rem;
+    border-style: solid none solid none;
+}
+/*Banner tekst slut*/
+
+/*Header - Slut*/
+
+.prøve h1{
+color: #404b96;
+}
+
+.prøve p{
+    color: #2e2a27;
+}
+
+/*__________________________Forsiden___________________________*/
+
+
+/*__________________________Kampagne-siden___________________________*/
+
+
+/*__________________________Information om bilerne-siden___________________________*/
+
+
+/*__________________________Book en prøvetur-siden___________________________*/
+
+
+/*__________________________Kontakt-siden___________________________*/
+
+
+/*HEADER Medie Queries*/
+@media screen and (min-width:650px){
+    header {
+        background-image: url(./billeder/cover_tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position-x: 40%;
+        min-height: 60rem;
+    }
+
+    /*Logo*/
+    .wrapper .logo img {
+        width: 25%;
+        height: auto;
+    }
+
+    /*burger-menu's streger*/
+    span{
+        font-size:45px;
+        cursor:pointer;
+        color: #E6EAEB;
+    }
+    /*Slut*/
+
+    /*Banner tekst*/
+    .banner-text h1 {
+        color: #E6EAEB;
+        text-align: center;
+        font-size: 9em;
+        position: relative;
+        top: -44rem;
+        border-style: solid none solid none;
+    }
+    /*Banner tekst slut*/
+}
+
+/*HEADER Medie Queries*/
+@media screen and (min-width:1000px){
+    header {
+        background-image: url(./billeder/cover_tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position-x: 40%;
+        min-height: 60rem;
+    }
+
+    /*Logo*/
+    .wrapper .logo img {
+        width: 25%;
+        height: auto;
+    }
+
+    /*burger-menu's streger*/
+    span{
+        font-size:45px;
+        cursor:pointer;
+        color: #E6EAEB;
+    }
+    /*Slut*/
+
+    /*Banner tekst*/
+    .banner-text h1 {
+        color: #E6EAEB;
+        text-align: center;
+        font-size: 12em;
+        position: relative;
+        top: -39rem;
+        border-style: solid none solid none;
+    }
+
+    span{
+        display: block
+    }
+    /*Banner tekst slut*/
+}
