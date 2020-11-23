@@ -543,24 +543,30 @@ footer p{
     /*burger-menu's streger*/
     span{
         font-size:45px;
-        cursor:pointer;
-        color: #E6EAEB;
     }
     /*Slut*/
 
     /*Banner tekst*/
     .banner-text h1 {
-        color: #E6EAEB;
-        text-align: center;
-        font-size: 9em;
-        position: relative;
+        font-size: 10em;
         top: -8rem;
-        border-style: solid none solid none;
-    }
+        }
     /*Banner tekst slut*/
 
     /*____________________HEADER SLUT____________________*/
-    
+
+    /*____________________FOOTER_________________________*/
+        footer h1{
+            font-size: 25px;
+        }
+
+        footer p{
+            font-size: 18px;
+        }
+    /*____________________FOOTER SLUT_________________________*/
+
+
+
     /*____________________KAMPAGNESIDE____________________*/
     /*-----Grid opsætning-----*/
     .container-campaign{
@@ -606,15 +612,81 @@ footer p{
         margin: 10px 0 10px 0;
     }
 
-    /*Kampagnen om gode tilbud*/
+    /*Sectionerne overskrift*/
+    .good-deals-camp h3{
+        font-size: 23px;
+    }
+
+    .hybrid-stationcar h3{
+        font-size: 23px;
+    }
+
+    .mild-hybrid h3{
+        font-size: 30px;
+    }
+
+    .best-guarantee h3{
+        font-size: 23px;
+    }
+
+    .christmas-car h3{
+        font-size: 23px;
+    }
+
+    /*sektionernes h4*/
+    .hybrid-stationcar h4{
+        font-size: 22px;
+    }
+
+    .mild-hybrid h4{
+        font-size: 28px;
+    }
+
+    .best-guarantee h4{
+        font-size: 22px;
+    }
+
+    .christmas-car h4{
+        font-size: 22px;
+    }
+
+    /*sektionernes tekst*/
     .good-deals-camp p{
+        font-size: 18px;
         margin-bottom: 92px;
     }
 
+    .hybrid-stationcar p{
+        font-size: 18px;
+    }
+
+    .mild-hybrid p{
+        font-size: 22px;
+    }
+
+    .best-guarantee p{
+        font-size: 18px;
+    }
+
+    .christmas-car p{
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+
+    /*knapper*/
     .good-deals-camp .button{
         height: 0;
     }
 
+    .christmas-car .button{
+        height: 0;
+    }
+
+    .btn{
+        width: 150px;
+        font-size: 16px;
+        padding: 20px 5px;
+    }
     /*____________________KAMPAGNESIDE SLUT____________________*/
 }
 
@@ -622,41 +694,132 @@ footer p{
 @media screen and (min-width:1000px){
     /*____________________HEADER____________________*/
     header {
-        background-image: url(./billeder/cover_tablet.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-position-x: 40%;
-        min-height: 60rem;
-    }
-
-    /*Logo*/
-    .wrapper .logo img {
-        width: 25%;
-        height: auto;
+        background-image: url(./billeder/cover_desktop.jpg);
+        min-height: 24rem;
     }
 
     /*burger-menu's streger*/
     span{
         font-size:45px;
-        cursor:pointer;
-        color: #E6EAEB;
     }
     /*Slut*/
 
     /*Banner tekst*/
     .banner-text h1 {
-        color: #E6EAEB;
-        text-align: center;
-        font-size: 12em;
-        position: relative;
-        top: -39rem;
-        border-style: solid none solid none;
-    }
-
-    span{
-        display: block
-    }
+        font-size: 15em;
+        top: -7rem;
+        }
     /*Banner tekst slut*/
-
     /*____________________HEADER SLUT____________________*/
+
+    /*____________________FOOTER_________________________*/
+    footer h1{
+        font-size: 31px;
+    }
+
+    footer p{
+        font-size: 23px;
+    }
+    /*____________________FOOTER SLUT_________________________*/
+
+
+
+    /*____________________KAMPAGNESIDE____________________*/
+    /*Sektion med filter for modellerne*/
+    .campaign-filter h1{
+        font-size: 50px;
+    }
+
+    .campaign-filter .tab{
+        justify-content: space-evenly;
+    }
+
+    /*billederne i filter sektionen*/
+    .campaign-filter .SUV{
+        width: 180%;
+        height: auto;
+    }
+
+    .campaign-filter .HB{
+        width: 180%;
+        height: auto;
+    }
+
+    .campaign-filter .SC{
+        width: 180%;
+        height: auto;
+    }
+
+    /*Sektion med antal kampagner*/
+    .count h1{
+        font-size: 40px;
+    }
+
+    /*Sectionerne overskrift*/
+    .good-deals-camp h3{
+        font-size: 28px;
+    }
+
+    .hybrid-stationcar h3{
+        font-size: 28px;
+    }
+
+    .mild-hybrid h3{
+        font-size: 35px;
+    }
+
+    .best-guarantee h3{
+        font-size: 28px;
+    }
+
+    .christmas-car h3{
+        font-size: 28px;
+    }
+
+    /*sektionernes h4*/
+    .hybrid-stationcar h4{
+        font-size: 25px;
+    }
+
+    .mild-hybrid h4{
+        font-size: 31px;
+    }
+
+    .best-guarantee h4{
+        font-size: 25px;
+    }
+
+    .christmas-car h4{
+        font-size: 25px;
+    }
+
+    /*sektionernes tekst*/
+    .good-deals-camp p{
+        font-size: 22px;
+    }
+
+    .hybrid-stationcar p{
+        font-size: 22px;
+    }
+
+    .mild-hybrid p{
+        font-size: 26px;
+    }
+
+    .best-guarantee p{
+        font-size: 22px;
+    }
+
+    .christmas-car p{
+        font-size: 22px;
+    }
+
+    /*knapper*/
+    .btn{
+        width: 170px;
+        font-size: 19px;
+        padding: 20px 5px;
+    }
+
+    /*____________________KAMPAGNESIDE SLUT____________________*/
 }
