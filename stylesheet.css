@@ -213,6 +213,8 @@ footer p{
     "count count count count count count"
     "gooddeals gooddeals gooddeals gooddeals gooddeals gooddeals"
     "hybcar hybcar hybcar hybcar hybcar hybcar"
+    "mildhyb mildhyb mildhyb mildhyb mildhyb mildhyb"
+    "best best best best best best"
     ;}
 /*Grid opsætning - Slut*/
 
@@ -355,6 +357,19 @@ footer p{
 /*SECTION - Kampagnen om gode tilbud*/
 .good-deals-camp{
     grid-area: gooddeals;
+    margin: 0px 20px 40px 20px;
+}
+
+.good-deals-camp h3{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.good-deals-camp p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 
 .good-deals-camp img{
@@ -365,6 +380,19 @@ footer p{
 /*SECTION - Kampganen om Hybrid Stationcar Light*/
 .hybrid-stationcar{
     grid-area: hybcar;
+    margin: 0px 20px 40px 20px;
+}
+
+.hybrid-stationcar h3{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.hybrid-stationcar p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 
 .hybrid-stationcar img{
@@ -372,6 +400,51 @@ footer p{
     height: auto;
 }
 
+/*SECTION - Kampganen om Mild Hybrid SUV*/
+.mild-hybrid{
+    grid-area: mildhyb;
+    margin: 0px 20px 40px 20px;
+}
+
+.mild-hybrid h3{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.mild-hybrid p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.mild-hybrid img{
+    width: 100%;
+    height: auto;
+}
+
+/*SECTION - Kampganen om Mild Hybrid SUV*/
+.best-guarantee{
+    grid-area: best;
+    margin: 0px 20px 40px 20px;
+}
+
+.best-guarantee h3{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.best-guarantee p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.best-guarantee img{
+    width: 100%;
+    height: auto;
+}
 
 
 
