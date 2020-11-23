@@ -364,22 +364,24 @@ footer p{
     color: #404b96;
 }
 
-.sektion-subheading{
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-.sektion-text{
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-}
-
 /*SECTION - kampagnen om gode tilbud*/
 .good-deals-camp{
     grid-area: gooddeals;
     margin: 0px 20px 40px 20px;
+}
+
+.good-deals-camp h3{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #404b96;
+}
+
+.good-deals-camp p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 
 .good-deals-camp img{
@@ -393,6 +395,26 @@ footer p{
     margin: 0px 20px 40px 20px;
 }
 
+.hybrid-stationcar h3{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #404b96;
+}
+
+.hybrid-stationcar h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.hybrid-stationcar p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
 .hybrid-stationcar img{
     width: 100%;
     height: auto;
@@ -402,6 +424,26 @@ footer p{
 .mild-hybrid{
     grid-area: mildhyb;
     margin: 0px 20px 40px 20px;
+}
+
+.mild-hybrid h3{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #404b96;
+}
+
+.mild-hybrid h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.mild-hybrid p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 
 .mild-hybrid img{
@@ -415,6 +457,26 @@ footer p{
     margin: 0px 20px 40px 20px;
 }
 
+.best-guarantee h3{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #404b96;
+}
+
+.best-guarantee h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.best-guarantee p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
 .best-guarantee img{
     width: 100%;
     height: auto;
@@ -424,6 +486,26 @@ footer p{
 .christmas-car{
     grid-area: xmas;
     margin: 0px 20px 40px 20px;
+}
+
+.christmas-car h3{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #404b96;
+}
+
+.christmas-car h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.christmas-car p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 
 .christmas-car img{
