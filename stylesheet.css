@@ -54,7 +54,7 @@ header {
     background-repeat: no-repeat;
     background-size: 130% auto;
     background-position-x: 40%;
-    min-height: 35rem;
+    min-height: 33rem;
 }
 
 /*Cover*/
@@ -152,25 +152,23 @@ span{
 }
 
 .banner-text h1 {
-    color: white;
+    color: #E6EAEB;
     text-align: center;
-    text-shadow: 2px 2px #414fa78c;
     font-size: 6em;
     position: relative;
     top: -20rem;
     border-style: solid none solid none;
 }
 /*Banner tekst slut*/
-
 /*Header - Slut*/
 
-/*Footer*/
+/*----Footer-----*/
 footer{
     background-color: #46494d;
     color: #e6eaeb;
     display: flex;
     justify-content: space-between;
-    padding: 40px 15px 20px 15px;
+    padding: 30px 10px 10px 10px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -183,12 +181,11 @@ footer h1{
 footer p{
     font-size: 10px;
     font-weight: lighter;
-    letter-spacing: 2px;
 }
 
 .footerdesktop1 a{
     text-decoration: none;
-    color: #e6eaeb;
+    color: white;
 }
 
 .footerdesktop2{
@@ -205,7 +202,138 @@ footer p{
 
 
 /*__________________________Kampagne-siden___________________________*/
+/*----Den øverste sektion med SUV, Hatchback og Stationcar----*/
+.campaign-filter{
+    grid-area: filter;
+    background-color: #efefef;
+}
 
+.campaign-filter h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+/*Filter knapperne*/
+.tab {
+    overflow: hidden;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tab img{
+    width: 100%;
+    height: auto;
+}
+  
+.tab button {
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+  
+.tab button:hover {
+    background-color: #ddd;
+}
+  
+.tab button.active {
+    background-color: #ccc;
+}
+  
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/*Tekst til første tab*/
+#SUV{
+    margin-top: 5px;
+}
+
+#SUV h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #269c2c;
+    text-align: center;
+}
+
+#SUV p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+/*Tekst til anden tab*/
+#Hatchback{
+    margin-top: 5px;
+}
+
+#Hatchback h3{
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #269c2c;
+    text-align: center;
+}
+
+#Hatchback p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+/*Tekst til tredje tab*/
+#Stationcar{
+    margin-top: 5px;
+}
+
+#Stationcar h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #269c2c;
+    text-align: center;
+}
+
+#Stationcar p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+/*SLUT - Filter*/
+
+/*-----Antal kampagner-tekst-----*/
+.count{
+    grid-area: count;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.count h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+/*SLUT - Antal kampagner-tekst*/
 
 /*__________________________Information om bilerne-siden___________________________*/
 
@@ -242,11 +370,11 @@ footer p{
 
     /*Banner tekst*/
     .banner-text h1 {
-        color: white;
+        color: #E6EAEB;
         text-align: center;
         font-size: 9em;
         position: relative;
-        top: -45rem;
+        top: -44rem;
         border-style: solid none solid none;
     }
     /*Banner tekst slut*/
@@ -278,7 +406,7 @@ footer p{
 
     /*Banner tekst*/
     .banner-text h1 {
-        color: white;
+        color: #E6EAEB;
         text-align: center;
         font-size: 12em;
         position: relative;
@@ -290,8 +418,4 @@ footer p{
         display: block
     }
     /*Banner tekst slut*/
-
-    footer{
-        margin-top: 20rem;
-    }
 }
