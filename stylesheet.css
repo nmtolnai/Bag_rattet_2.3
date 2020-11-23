@@ -20,7 +20,7 @@ body{
 .btn{
     width: 130px;
     border: none;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 500;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: uppercase;
@@ -215,6 +215,7 @@ footer p{
     "hybcar hybcar hybcar hybcar hybcar hybcar"
     "mildhyb mildhyb mildhyb mildhyb mildhyb mildhyb"
     "best best best best best best"
+    "xmas xmas xmas xmas xmas xmas"
     ;}
 /*Grid opsætning - Slut*/
 
@@ -354,16 +355,18 @@ footer p{
 }
 /*SLUT - Antal kampagner-tekst*/
 
-/*SECTION - Kampagnen om gode tilbud*/
+/*SECTION - kampagnen om gode tilbud*/
 .good-deals-camp{
     grid-area: gooddeals;
     margin: 0px 20px 40px 20px;
 }
 
 .good-deals-camp h3{
-    font-size: 16px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #404b96;
 }
 
 .good-deals-camp p{
@@ -377,16 +380,24 @@ footer p{
     height: auto;
 }
 
-/*SECTION - Kampganen om Hybrid Stationcar Light*/
+/*SECTION - kampagnen om Hybrid Stationcar Light*/
 .hybrid-stationcar{
     grid-area: hybcar;
     margin: 0px 20px 40px 20px;
 }
 
 .hybrid-stationcar h3{
-    font-size: 16px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #404b96;
+}
+
+.hybrid-stationcar h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
 .hybrid-stationcar p{
@@ -400,16 +411,24 @@ footer p{
     height: auto;
 }
 
-/*SECTION - Kampganen om Mild Hybrid SUV*/
+/*SECTION - kampagnen om Mild Hybrid SUV*/
 .mild-hybrid{
     grid-area: mildhyb;
     margin: 0px 20px 40px 20px;
 }
 
 .mild-hybrid h3{
-    font-size: 16px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #404b96;
+}
+
+.mild-hybrid h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
 .mild-hybrid p{
@@ -423,16 +442,24 @@ footer p{
     height: auto;
 }
 
-/*SECTION - Kampganen om Mild Hybrid SUV*/
+/*SECTION - kampagnen om bedste garanti*/
 .best-guarantee{
     grid-area: best;
     margin: 0px 20px 40px 20px;
 }
 
 .best-guarantee h3{
-    font-size: 16px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #404b96;
+}
+
+.best-guarantee h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
 .best-guarantee p{
@@ -442,6 +469,37 @@ footer p{
 }
 
 .best-guarantee img{
+    width: 100%;
+    height: auto;
+}
+
+/*SECTION - kampagnen om jule bil*/
+.christmas-car{
+    grid-area: xmas;
+    margin: 0px 20px 40px 20px;
+}
+
+.christmas-car h3{
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #404b96;
+}
+
+.christmas-car h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.christmas-car p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.christmas-car img{
     width: 100%;
     height: auto;
 }
