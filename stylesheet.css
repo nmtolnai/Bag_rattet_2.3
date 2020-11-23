@@ -355,13 +355,8 @@ footer p{
 }
 /*SLUT - Antal kampagner-tekst*/
 
-/*SECTION - kampagnen om gode tilbud*/
-.good-deals-camp{
-    grid-area: gooddeals;
-    margin: 0px 20px 40px 20px;
-}
-
-.good-deals-camp h3{
+/*Style til sektioners h3, h4 og p*/
+.sektion-heading{
     font-size: 18px;
     font-weight: 800;
     letter-spacing: 1px;
@@ -369,10 +364,22 @@ footer p{
     color: #404b96;
 }
 
-.good-deals-camp p{
+.sektion-subheading{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.sektion-text{
     font-size: 15px;
     letter-spacing: 1px;
     margin-bottom: 30px;
+}
+
+/*SECTION - kampagnen om gode tilbud*/
+.good-deals-camp{
+    grid-area: gooddeals;
+    margin: 0px 20px 40px 20px;
 }
 
 .good-deals-camp img{
@@ -386,26 +393,6 @@ footer p{
     margin: 0px 20px 40px 20px;
 }
 
-.hybrid-stationcar h3{
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-    color: #404b96;
-}
-
-.hybrid-stationcar h4{
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-.hybrid-stationcar p{
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-}
-
 .hybrid-stationcar img{
     width: 100%;
     height: auto;
@@ -415,26 +402,6 @@ footer p{
 .mild-hybrid{
     grid-area: mildhyb;
     margin: 0px 20px 40px 20px;
-}
-
-.mild-hybrid h3{
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-    color: #404b96;
-}
-
-.mild-hybrid h4{
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-.mild-hybrid p{
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
 }
 
 .mild-hybrid img{
@@ -448,26 +415,6 @@ footer p{
     margin: 0px 20px 40px 20px;
 }
 
-.best-guarantee h3{
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-    color: #404b96;
-}
-
-.best-guarantee h4{
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-.best-guarantee p{
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-}
-
 .best-guarantee img{
     width: 100%;
     height: auto;
@@ -479,57 +426,30 @@ footer p{
     margin: 0px 20px 40px 20px;
 }
 
-.christmas-car h3{
-    font-size: 18px;
-    font-weight: 800;
-    letter-spacing: 1px;
-    margin-bottom: 5px;
-    color: #404b96;
-}
-
-.christmas-car h4{
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
-}
-
-.christmas-car p{
-    font-size: 15px;
-    letter-spacing: 1px;
-    margin-bottom: 30px;
-}
-
 .christmas-car img{
     width: 100%;
     height: auto;
 }
+/*__________________________SLUT MED KAMPAGNE CSS____________________________*/
 
-
-
-
-
-
-
-
-
-
-/*__________________________Information om bilerne-siden___________________________*/
+/*__________________________Information om bilerne-siden_____________________*/
 
 
 /*__________________________Book en prøvetur-siden___________________________*/
 
 
-/*__________________________Kontakt-siden___________________________*/
+/*__________________________Kontakt-siden____________________________________*/
 
 
-/*HEADER Medie Queries*/
-@media screen and (min-width:650px){
+/*__________________________Medie Queries min. 767px_____________________________*/
+@media screen and (min-width:767px){
+    /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_tablet.jpg);
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position-x: 40%;
-        min-height: 60rem;
+        min-height: 24rem;
     }
 
     /*Logo*/
@@ -552,14 +472,73 @@ footer p{
         text-align: center;
         font-size: 9em;
         position: relative;
-        top: -44rem;
+        top: -8rem;
         border-style: solid none solid none;
     }
     /*Banner tekst slut*/
+
+    /*____________________HEADER SLUT____________________*/
+    
+    /*____________________KAMPAGNESIDE____________________*/
+    /*-----Grid opsætning-----*/
+    .container-campaign{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "filter filter filter filter filter filter filter filter filter filter filter filter"
+        "count count count count count count count count count count count count"
+        "gooddeals gooddeals gooddeals gooddeals gooddeals gooddeals hybcar hybcar hybcar hybcar hybcar hybcar"
+        "mildhyb mildhyb mildhyb mildhyb mildhyb mildhyb mildhyb mildhyb mildhyb mildhyb mildhyb mildhyb"
+        "best best best best best best xmas xmas xmas xmas xmas xmas"
+        ;}
+    /*Grid opsætning - Slut*/
+
+    /*Sektion med filter for modellerne*/
+    .campaign-filter h1{
+        font-size: 40px;
+    }
+
+    .campaign-filter .tab{
+        justify-content: space-evenly;
+    }
+
+    /*billederne i filter sektionen*/
+    .campaign-filter .SUV{
+        width: 150%;
+        height: auto;
+    }
+
+    .campaign-filter .HB{
+        width: 150%;
+        height: auto;
+    }
+
+    .campaign-filter .SC{
+        width: 150%;
+        height: auto;
+    }
+
+    /*Sektion med antal kampagner*/
+    .count h1{
+        font-size: 33px;
+        margin: 10px 0 10px 0;
+    }
+
+    /*Kampagnen om gode tilbud*/
+    .good-deals-camp p{
+        margin-bottom: 92px;
+    }
+
+    .good-deals-camp .button{
+        height: 0;
+    }
+
+    /*____________________KAMPAGNESIDE SLUT____________________*/
 }
 
-/*HEADER Medie Queries*/
+/*__________________________Medie Queries min. 1000px_____________________________*/
 @media screen and (min-width:1000px){
+    /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_tablet.jpg);
         background-repeat: no-repeat;
@@ -596,4 +575,6 @@ footer p{
         display: block
     }
     /*Banner tekst slut*/
+
+    /*____________________HEADER SLUT____________________*/
 }
