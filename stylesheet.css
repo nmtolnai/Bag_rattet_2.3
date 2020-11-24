@@ -554,7 +554,7 @@ footer p{
 
 /* billede */
 .section-image1-information img{
-  width: 375px;
+  width: 100%;
 }
 
 .section-image2-information img{
@@ -658,6 +658,7 @@ footer p{
     width: auto;
     margin-left: 20%;
     margin-bottom: 15%;
+    justify-self: left;
 }
 
 .gallery2{
@@ -727,12 +728,12 @@ footer p{
 {
 	width: 80%;
 	height: auto;
-	margin: auto;
+	margin: 0px;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 10px;
+	padding: 150px;
 	border-radius: 10px;
-	background: #fff;
+	background: #E6EAEB;
 	box-shadow: 0px 0px 10px 0px #666;
 }
 
@@ -815,8 +816,15 @@ footer p{
     margin-right: auto;
 }
 
-/*__________________________Medie Queries min. 767px_____________________________*/
- @media screen and (min-width:767px){
+.contact-form-btn:hover{
+    background-color: #dd1538;
+    box-shadow: 0px 15px 20px #f190a0;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/*__________________________Medie Queries min. 767px___tablet__________________________*/
+@media screen and (min-width:767px){
     /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_tablet.jpg);
@@ -982,8 +990,8 @@ footer p{
     /*____________________KAMPAGNESIDE SLUT____________________*/
 }
 
-/*__________________________Medie Queries min. 1024px_____________________________*/
-@media screen and (min-width:1024px){
+/*__________________________Medie Queries min. 1000px___desktop bruger__________________________*/
+@media screen and (min-width:1000px){
     /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_desktop.jpg);
