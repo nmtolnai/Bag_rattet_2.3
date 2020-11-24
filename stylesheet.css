@@ -513,56 +513,121 @@ footer p{
 /*__________________________Information om bilerne-siden_____________________*/
 
 
-
-
-
-
-/* __________________________SLUT MED INFORMATION___________________________ */
-
 /*__________________________Book en prøvetur-siden___________________________*/
 
 
 /*__________________________Kontakt-siden____________________________________*/
-.p{
-    text-align: center;
-
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	background: #8e2de2;
+	font-family: 'Poppins', sans-serif;
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
+.contact-in
+{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0px 0px 10px 0px #666;
+}
+
+.contact-map
+{
+	width: 100%;
+	height: auto;
+	flex: 50%;
+}
+.contact-map iframe
+{
+	width: 100%;
+	height: 100%;
+}
+.contact-form
+{
+	width: 100%;
+	height: auto;
+	flex: 50%;
+	padding: 30px;
+	text-align: center;
+}
+.contact-form h1
+{
+	margin-bottom: 10px;
+}
+
+.contact-form-txt
+{
+	width: 100%;
+	height: 40px;
+	color: #000;
+	border: 1px solid #bcbcbc;
+	border-radius: 0px;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+.contact-form-txt::placeholder
+{
+	color: #aaa;
+}
+.contact-form-textarea
+{
+	width: 100%;
+	height: 130px;
+	color: #000;
+	border: 1px solid #bcbcbc;
+	border-radius: 0px;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+.contact-form-textarea::placeholder
+{
+	color: #aaa;
+}
+
+.contact-form-btn
+{
+    display: block;
+    width: 130px;
     border: none;
-    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #2e2a27;
+    border: solid #dd1538;
+    box-shadow: 0px 8px 15px #0000001a;
+    transition: all 0.3s ease 0s;
     cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
+    outline: none;
+    padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+
+ 
+
 /*__________________________Medie Queries min. 767px_____________________________*/
-@media screen and (min-width:767px){
+ @media screen and (min-width:767px){
     /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_tablet.jpg);
@@ -728,8 +793,8 @@ input[type=text], select, textarea {
     /*____________________KAMPAGNESIDE SLUT____________________*/
 }
 
-/*__________________________Medie Queries min. 1024px_____________________________*/
-@media screen and (min-width:1024px){
+/*__________________________Medie Queries min. 1000px_____________________________*/
+@media screen and (min-width:1000px){
     /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_desktop.jpg);
@@ -857,6 +922,151 @@ input[type=text], select, textarea {
         width: 170px;
         font-size: 19px;
         padding: 20px 5px;
+    }
+
+    /*____________________KAMPAGNESIDE SLUT____________________*/
+}
+
+
+/*__________________________Medie Queries min. 1440px_____________________________*/
+@media screen and (min-width:1440px){
+    /*____________________HEADER____________________*/
+    header {
+        min-height: 33rem;
+    }
+
+    /*Banner tekst*/
+    .banner-text h1 {
+        top: -13rem;
+    }
+    /*Banner tekst slut*/
+    /*____________________HEADER SLUT____________________*/
+
+    /*____________________FOOTER_________________________*/
+    footer{
+        margin-top: 50px;
+    }
+    /*____________________FOOTER SLUT_________________________*/
+
+
+
+    /*____________________KAMPAGNESIDE____________________*/
+        /*Sektion med antal kampagner*/
+    .count h1{
+        font-size: 45px;
+    }
+
+    /*Sectionerne overskrift*/
+    .good-deals-camp h3{
+        font-size: 32px;
+    }
+
+    .hybrid-stationcar h3{
+        font-size: 32px;
+    }
+
+    .mild-hybrid h3{
+        font-size: 39px;
+    }
+
+    .best-guarantee h3{
+        font-size: 32px;
+    }
+
+    .christmas-car h3{
+        font-size: 32px;
+    }
+
+    /*sektionernes h4*/
+    .hybrid-stationcar h4{
+        font-size: 30px;
+    }
+
+    .mild-hybrid h4{
+        font-size: 36px;
+    }
+
+    .best-guarantee h4{
+        font-size: 30px;
+    }
+
+    .christmas-car h4{
+        font-size: 30px;
+    }
+
+    /*sektionernes tekst*/
+    .good-deals-camp p{
+        font-size: 27px;
+    }
+
+    .hybrid-stationcar p{
+        font-size: 27px;
+    }
+
+    .mild-hybrid p{
+        font-size: 31px;
+    }
+
+    .best-guarantee p{
+        font-size: 27px;
+        margin-bottom: 90px;
+    }
+
+    .christmas-car p{
+        font-size: 27px;
+        margin-bottom: 100px;
+    }
+
+    /*knapper*/
+    .best-guarantee .button{
+        height: 0;
+    }
+
+    .btn{
+        width: 170px;
+        font-size: 22px;
+        padding: 20px 5px;
+    }
+
+    /*Sektion billeder*/
+    .good-deals-camp img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hybrid-stationcar img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mild-hybrid img{
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mild-hybrid{
+        margin: 30px 80px 50px 80px;
+        text-align: center;
+    }
+
+    .best-guarantee img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .christmas-car img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /*____________________KAMPAGNESIDE SLUT____________________*/
