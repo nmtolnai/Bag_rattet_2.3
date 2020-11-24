@@ -513,6 +513,12 @@ footer p{
 /*__________________________Information om bilerne-siden_____________________*/
 
 
+
+
+
+
+/* __________________________SLUT MED INFORMATION___________________________ */
+
 /*__________________________Book en prøvetur-siden___________________________*/
 
 
@@ -722,8 +728,8 @@ input[type=text], select, textarea {
     /*____________________KAMPAGNESIDE SLUT____________________*/
 }
 
-/*__________________________Medie Queries min. 1000px_____________________________*/
-@media screen and (min-width:1000px){
+/*__________________________Medie Queries min. 1024px_____________________________*/
+@media screen and (min-width:1024px){
     /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_desktop.jpg);
@@ -851,151 +857,6 @@ input[type=text], select, textarea {
         width: 170px;
         font-size: 19px;
         padding: 20px 5px;
-    }
-
-    /*____________________KAMPAGNESIDE SLUT____________________*/
-}
-
-
-/*__________________________Medie Queries min. 1440px_____________________________*/
-@media screen and (min-width:1440px){
-    /*____________________HEADER____________________*/
-    header {
-        min-height: 33rem;
-    }
-
-    /*Banner tekst*/
-    .banner-text h1 {
-        top: -13rem;
-    }
-    /*Banner tekst slut*/
-    /*____________________HEADER SLUT____________________*/
-
-    /*____________________FOOTER_________________________*/
-    footer{
-        margin-top: 50px;
-    }
-    /*____________________FOOTER SLUT_________________________*/
-
-
-
-    /*____________________KAMPAGNESIDE____________________*/
-        /*Sektion med antal kampagner*/
-    .count h1{
-        font-size: 45px;
-    }
-
-    /*Sectionerne overskrift*/
-    .good-deals-camp h3{
-        font-size: 32px;
-    }
-
-    .hybrid-stationcar h3{
-        font-size: 32px;
-    }
-
-    .mild-hybrid h3{
-        font-size: 39px;
-    }
-
-    .best-guarantee h3{
-        font-size: 32px;
-    }
-
-    .christmas-car h3{
-        font-size: 32px;
-    }
-
-    /*sektionernes h4*/
-    .hybrid-stationcar h4{
-        font-size: 30px;
-    }
-
-    .mild-hybrid h4{
-        font-size: 36px;
-    }
-
-    .best-guarantee h4{
-        font-size: 30px;
-    }
-
-    .christmas-car h4{
-        font-size: 30px;
-    }
-
-    /*sektionernes tekst*/
-    .good-deals-camp p{
-        font-size: 27px;
-    }
-
-    .hybrid-stationcar p{
-        font-size: 27px;
-    }
-
-    .mild-hybrid p{
-        font-size: 31px;
-    }
-
-    .best-guarantee p{
-        font-size: 27px;
-        margin-bottom: 90px;
-    }
-
-    .christmas-car p{
-        font-size: 27px;
-        margin-bottom: 100px;
-    }
-
-    /*knapper*/
-    .best-guarantee .button{
-        height: 0;
-    }
-
-    .btn{
-        width: 170px;
-        font-size: 22px;
-        padding: 20px 5px;
-    }
-
-    /*Sektion billeder*/
-    .good-deals-camp img{
-        width: 90%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .hybrid-stationcar img{
-        width: 90%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .mild-hybrid img{
-        width: 70%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .mild-hybrid{
-        margin: 30px 80px 50px 80px;
-        text-align: center;
-    }
-
-    .best-guarantee img{
-        width: 90%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .christmas-car img{
-        width: 90%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     /*____________________KAMPAGNESIDE SLUT____________________*/
