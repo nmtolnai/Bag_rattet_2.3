@@ -549,7 +549,7 @@ footer p{
 
 /* billede */
 .section-image1-information img{
-  width: 375px;
+  width: 100%;
 }
 
 .section-image2-information img{
@@ -653,6 +653,7 @@ footer p{
     width: auto;
     margin-left: 20%;
     margin-bottom: 15%;
+    justify-self: left;
 }
 
 .gallery2{
@@ -817,8 +818,8 @@ footer p{
     transform: translateY(-3px);
 }
 
-/*__________________________Medie Queries min. 767px_____________________________*/
- @media screen and (min-width:767px){
+/*__________________________Medie Queries min. 767px___tablet__________________________*/
+@media screen and (min-width:767px){
     /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_tablet.jpg);
@@ -984,7 +985,7 @@ footer p{
     /*____________________KAMPAGNESIDE SLUT____________________*/
 }
 
-/*__________________________Medie Queries min. 1000px_____________________________*/
+/*__________________________Medie Queries min. 1000px___desktop bruger__________________________*/
 @media screen and (min-width:1000px){
     /*____________________HEADER____________________*/
     header {
@@ -1116,6 +1117,7 @@ footer p{
     }
 
     /*____________________KAMPAGNESIDE SLUT____________________*/
+    
 }
 
 
