@@ -240,9 +240,7 @@ footer p{
     overflow: hidden;
     background-color: #efefef;
     display: flex;
-    justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    justify-content: space-evenly;
 }
 
 .tab img{
@@ -253,22 +251,20 @@ footer p{
 .tab button {
     border: none;
     cursor: pointer;
-    padding: 14px 16px;
     transition: 0.3s;
 }
   
 .tab button:hover {
-    background-color: #dd1538;
+    border: solid 10px #dd1538;
 }
   
 .tab button.active {
-    background-color: #404b96;
+    border: solid 8px #404b96;
 }
   
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
 }
 
@@ -511,11 +507,210 @@ footer p{
 /*__________________________SLUT MED KAMPAGNE CSS____________________________*/
 
 /*__________________________Information om bilerne-siden_____________________*/
+/* kassen i top med knappen */
+.section-buy-information{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "Name Button"
+    "Price Button"
+    ;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5%;
+
+}
+.section-buy-information h2{
+    grid-area: Name;
+    margin-left: 10px;
+    letter-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.section-buy-information p{
+    grid-area: Price;
+    margin-left: 10px;
+}
+.section-buy-information button{
+   
+    grid-area: Button;
+}
+
+/* model navn */
+.section-title-information{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* billede */
+.section-image1-information img{
+  width: 375px;
+}
+
+.section-image2-information img{
+  width: 0px;
+}
+
+/* sektion med highlight features */
+.section-info-information{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "title title"
+    "text text"
+    "seats1 km1"
+    "seats2 km2"
+    "co21 AWD1"
+    "co22 AWD2"
+    ;
+    background-color: #FFFFFF;
+}
 
 
+.section-info-information h1{
+    text-align: center;
+    color: #404B96;
+    
+}
 
+.headline-information{
+    grid-area: title;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    letter-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
 
+}
 
+.section-info-information p{
+    text-align: center;
+}
+
+.underline-information{
+    grid-area: text;
+    font-size: 15px;
+    padding-bottom: 5%;
+}
+
+.seats1-information{
+    grid-area: seats1;
+}
+
+.seats2-information{
+    grid-area: seats2;
+      padding-bottom: 15%;
+}
+
+.km1-information{
+    grid-area: km1;
+}
+
+.km2-information{
+    grid-area: km2;
+      padding-bottom: 15%;
+}
+
+.co21-information{
+    grid-area: co21;
+}
+
+.co22-information{
+    grid-area: co22;
+    padding-bottom: 15%;
+}
+
+.AWD1-information{
+    grid-area: AWD1;
+}
+
+.AWD2-information{
+    grid-area: AWD2;
+    padding-bottom: 15%;
+}
+
+/* galleriet */
+.section-gallery-information{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img3"
+   
+    ;
+    padding-top: 5%;
+}
+
+.gallery1{
+    grid-area: img1;
+    width: auto;
+    margin-left: 20%;
+    margin-bottom: 15%;
+}
+
+.gallery2{
+    grid-area: img2;
+    width: auto;
+    margin-right: 20%;
+    margin-bottom: 15%;
+    justify-self: right;
+}
+
+.gallery3{
+    grid-area: img3;
+    width: auto;
+    margin-bottom: 10%; 
+    justify-self: center;
+}
+
+.gallery4{
+    width: 0px;
+}
+
+.gallery5{
+    width: 0px;
+}
+
+.gallery6{
+    width: 0px;
+}
+
+/* sektion med tekst */
+.section-text-information{
+    background-color: #FFFFFF;
+    padding: 10%;
+    font-weight: lighter;
+}
+
+.section-text-information h1{
+    text-align: center;
+    color: #404B96;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.section-text-information p{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* knappen i bunden af siden */
+.section-button-information button{
+   
+  display: block;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 /* __________________________SLUT MED INFORMATION___________________________ */
 
@@ -523,10 +718,100 @@ footer p{
 
 
 /*__________________________Kontakt-siden____________________________________*/
+.contact-in
+{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0px 0px 10px 0px #666;
+}
 
+.contact-map
+{
+	width: 100%;
+	height: auto;
+	flex: 50%;
+}
+.contact-map iframe
+{
+	width: 100%;
+	height: 100%;
+}
+.contact-form
+{
+	width: 100%;
+	height: auto;
+	flex: 50%;
+	padding: 30px;
+	text-align: center;
+}
+.contact-form h1
+{
+	margin-bottom: 10px;
+}
+
+.contact-form-txt
+{
+	width: 100%;
+	height: 40px;
+	color: #000;
+	border: 1px solid #bcbcbc;
+	border-radius: 0px;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+.contact-form-txt::placeholder
+{
+	color: #aaa;
+}
+.contact-form-textarea
+{
+	width: 100%;
+	height: 130px;
+	color: #000;
+	border: 1px solid #bcbcbc;
+	border-radius: 0px;
+	outline: none;
+	margin-bottom: 20px;
+	padding: 15px;
+	font-family: 'Poppins', sans-serif;
+}
+.contact-form-textarea::placeholder
+{
+	color: #aaa;
+}
+
+.contact-form-btn
+{
+    display: block;
+    width: 130px;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2.5px;
+    color: #2e2a27;
+    border: solid #dd1538;
+    box-shadow: 0px 8px 15px #0000001a;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*__________________________Medie Queries min. 767px_____________________________*/
-@media screen and (min-width:767px){
+ @media screen and (min-width:767px){
     /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_tablet.jpg);
@@ -692,8 +977,8 @@ footer p{
     /*____________________KAMPAGNESIDE SLUT____________________*/
 }
 
-/*__________________________Medie Queries min. 1024px_____________________________*/
-@media screen and (min-width:1024px){
+/*__________________________Medie Queries min. 1000px_____________________________*/
+@media screen and (min-width:1000px){
     /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_desktop.jpg);
@@ -821,6 +1106,151 @@ footer p{
         width: 170px;
         font-size: 19px;
         padding: 20px 5px;
+    }
+
+    /*____________________KAMPAGNESIDE SLUT____________________*/
+}
+
+
+/*__________________________Medie Queries min. 1440px_____________________________*/
+@media screen and (min-width:1440px){
+    /*____________________HEADER____________________*/
+    header {
+        min-height: 33rem;
+    }
+
+    /*Banner tekst*/
+    .banner-text h1 {
+        top: -13rem;
+    }
+    /*Banner tekst slut*/
+    /*____________________HEADER SLUT____________________*/
+
+    /*____________________FOOTER_________________________*/
+    footer{
+        margin-top: 50px;
+    }
+    /*____________________FOOTER SLUT_________________________*/
+
+
+
+    /*____________________KAMPAGNESIDE____________________*/
+        /*Sektion med antal kampagner*/
+    .count h1{
+        font-size: 45px;
+    }
+
+    /*Sectionerne overskrift*/
+    .good-deals-camp h3{
+        font-size: 32px;
+    }
+
+    .hybrid-stationcar h3{
+        font-size: 32px;
+    }
+
+    .mild-hybrid h3{
+        font-size: 39px;
+    }
+
+    .best-guarantee h3{
+        font-size: 32px;
+    }
+
+    .christmas-car h3{
+        font-size: 32px;
+    }
+
+    /*sektionernes h4*/
+    .hybrid-stationcar h4{
+        font-size: 30px;
+    }
+
+    .mild-hybrid h4{
+        font-size: 36px;
+    }
+
+    .best-guarantee h4{
+        font-size: 30px;
+    }
+
+    .christmas-car h4{
+        font-size: 30px;
+    }
+
+    /*sektionernes tekst*/
+    .good-deals-camp p{
+        font-size: 27px;
+    }
+
+    .hybrid-stationcar p{
+        font-size: 27px;
+    }
+
+    .mild-hybrid p{
+        font-size: 31px;
+    }
+
+    .best-guarantee p{
+        font-size: 27px;
+        margin-bottom: 90px;
+    }
+
+    .christmas-car p{
+        font-size: 27px;
+        margin-bottom: 100px;
+    }
+
+    /*knapper*/
+    .best-guarantee .button{
+        height: 0;
+    }
+
+    .btn{
+        width: 170px;
+        font-size: 22px;
+        padding: 20px 5px;
+    }
+
+    /*Sektion billeder*/
+    .good-deals-camp img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hybrid-stationcar img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mild-hybrid img{
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mild-hybrid{
+        margin: 30px 80px 50px 80px;
+        text-align: center;
+    }
+
+    .best-guarantee img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .christmas-car img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /*____________________KAMPAGNESIDE SLUT____________________*/
