@@ -954,7 +954,7 @@ footer p{
     /*sektionernes tekst*/
     .good-deals-camp p{
         font-size: 18px;
-        margin-bottom: 92px;
+        margin-bottom: 75px;
     }
 
     .hybrid-stationcar p{
@@ -971,18 +971,10 @@ footer p{
 
     .christmas-car p{
         font-size: 18px;
-        margin-bottom: 100px;
+        margin-bottom: 87px;
     }
 
     /*knapper*/
-    .good-deals-camp .button{
-        height: 0;
-    }
-
-    .christmas-car .button{
-        height: 0;
-    }
-
     .btn{
         width: 150px;
         font-size: 16px;
@@ -1077,6 +1069,12 @@ footer p{
         font-size: 40px;
     }
 
+    /*sektioner*/
+    .mild-hybrid{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     /*Sectionerne overskrift*/
     .good-deals-camp h3{
         font-size: 28px;
@@ -1126,6 +1124,7 @@ footer p{
 
     .mild-hybrid p{
         font-size: 26px;
+        margin-bottom: 30px;
     }
 
     .best-guarantee p{
@@ -1134,6 +1133,7 @@ footer p{
 
     .christmas-car p{
         font-size: 22px;
+        margin-bottom: 55px;
     }
 
     /*knapper*/
@@ -1141,6 +1141,15 @@ footer p{
         width: 170px;
         font-size: 19px;
         padding: 20px 5px;
+    }
+
+    /*billede i sektioner*/
+    .mild-hybrid img{
+        width: 70%;
+        height: auto;  
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;     
     }
 
     /*____________________KAMPAGNESIDE SLUT____________________*/
