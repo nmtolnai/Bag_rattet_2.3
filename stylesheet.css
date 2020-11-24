@@ -990,8 +990,8 @@ footer p{
     /*____________________KAMPAGNESIDE SLUT____________________*/
 }
 
-/*__________________________Medie Queries min. 1000px___desktop bruger__________________________*/
-@media screen and (min-width:1000px){
+/*__________________________Medie Queries min. 1024px___desktop bruger__________________________*/
+@media screen and (min-width:1024px){
     /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_desktop.jpg);
