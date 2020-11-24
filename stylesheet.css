@@ -524,8 +524,8 @@ footer p{
     ;
 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    border: 1px solid;
+    font-size: 15px;
+    padding: 5%;
 
 }
 .section-buy-information h2{
@@ -541,17 +541,7 @@ footer p{
     margin-left: 10px;
 }
 .section-buy-information button{
-    cursor: pointer;
-    border: 0;
-    background-color: #3FA043;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
-    border-radius: 90px;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 10px;
-    color: #ffffff;
+   
     grid-area: Button;
 }
 
@@ -585,13 +575,13 @@ footer p{
     "co21 AWD1"
     "co22 AWD2"
     ;
-    background-color: #eceff6;
+    background-color: #FFFFFF;
 }
 
 
 .section-info-information h1{
     text-align: center;
-    color: #3a4255;
+    color: #404B96;
     
 }
 
@@ -700,14 +690,14 @@ footer p{
 
 /* sektion med tekst */
 .section-text-information{
-    background-color: #eceff6;
+    background-color: #FFFFFF;
     padding: 10%;
     font-weight: lighter;
 }
 
 .section-text-information h1{
     text-align: center;
-    color: #3A4255;
+    color: #404B96;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
 }
@@ -721,19 +711,11 @@ footer p{
 
 /* knappen i bunden af siden */
 .section-button-information button{
-    cursor: pointer;
-    border: 0;
-    background-color: #3FA043;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
-    color: #ffffff;
-    border-radius: 90px;
-    padding: 10px;
-    padding-left: 60px;
-    padding-right: 60px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 20%;
+   
+  display: block;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 
