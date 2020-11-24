@@ -726,15 +726,15 @@ footer p{
 /*__________________________Kontakt-siden____________________________________*/
 .contact-in
 {
-	width: 80%;
+	width: 70%;
 	height: auto;
-	margin: 0px;
+    margin-left: 0px;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 150px;
-	border-radius: 10px;
+	padding: 50px;
+	border-radius: 0px;
 	background: #E6EAEB;
-	box-shadow: 0px 0px 10px 0px #666;
+	box-shadow: 0px 0px 0px 0px #666;
 }
 
 .contact-map
@@ -753,7 +753,7 @@ footer p{
 	width: 100%;
 	height: auto;
 	flex: 50%;
-	padding: 30px;
+	padding: 35px;
 	text-align: center;
 }
 .contact-form h1
