@@ -10,14 +10,8 @@ body{
 }
 
 /*-----Knap design på siden-----*/
-.button{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .btn{
+    display: block;
     width: 130px;
     border: none;
     font-size: 12px;
@@ -34,6 +28,8 @@ body{
     cursor: pointer;
     outline: none;
     padding: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn:hover{
@@ -505,7 +501,6 @@ footer p{
 .christmas-car p{
     font-size: 15px;
     letter-spacing: 1px;
-    margin-bottom: 30px;
 }
 
 .christmas-car img{
