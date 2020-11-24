@@ -240,9 +240,7 @@ footer p{
     overflow: hidden;
     background-color: #efefef;
     display: flex;
-    justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    justify-content: space-evenly;
 }
 
 .tab img{
@@ -253,22 +251,20 @@ footer p{
 .tab button {
     border: none;
     cursor: pointer;
-    padding: 14px 16px;
     transition: 0.3s;
 }
   
 .tab button:hover {
-    background-color: #dd1538;
+    border: solid 10px #dd1538;
 }
   
 .tab button.active {
-    background-color: #404b96;
+    border: solid 8px #404b96;
 }
   
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
 }
 
