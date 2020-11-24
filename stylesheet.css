@@ -64,8 +64,8 @@ header {
 }
 
 /*Logo*/
-.wrapper .logo img {
-    width: 45%;
+.logo {
+    width: 30%;
     height: auto;
 }
 
@@ -159,6 +159,7 @@ span{
     position: relative;
     top: -13rem;
     border-style: solid none solid none;
+    text-shadow: 0px 3px #273da175;
 }
 /*Banner tekst slut*/
 /*Header - Slut*/
@@ -998,6 +999,12 @@ footer p{
         min-height: 24rem;
     }
 
+    /*Logo*/
+    .logo {
+        width: 20%;
+        height: auto;
+    }
+
     .nav-right{
         display: none;
     }
@@ -1012,6 +1019,17 @@ footer p{
     /*navigatonmenu til desktop*/
     .nav-desktop{
         display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-desktop a{
+        font-size: 17px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        color: #E6EAEB;
+        padding-left: 23px;
+        text-decoration: none;
+        cursor: pointer;
     }
 
     /*____________________HEADER SLUT____________________*/
