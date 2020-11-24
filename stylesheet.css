@@ -1146,6 +1146,43 @@ footer p{
     /*____________________KAMPAGNESIDE SLUT____________________*/
     /*____________________informationsside____________________ */
 
+/* kassen i top med knappen */
+.section-buy-information{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "Name Price Bank Button"
+    ;
+}
+.section-buy-information h2{
+    grid-area: Name;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+.section-buy-information p{
+    grid-area: Price;
+    text-align: left;
+    font-size: 25px;
+    margin: auto;
+}
+.section-buy-information button{
+    margin-left: 70px;
+
+}
+
+
+
+/* billede */
+.section-image1-information img{
+    width: 0px;
+  }
+  
+  .section-image2-information img{
+    width: 100%;
+  }
    /* sektion med info */
    .section-info-information h1{
     font-size: 33px;
@@ -1274,7 +1311,7 @@ footer p{
 
 .section-text-information h1{
     text-align: center;
-    color: #3A4255;
+   
 }
 
 .section-text-information p{
