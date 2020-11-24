@@ -1048,6 +1048,16 @@ footer p{
         justify-content: space-evenly;
     }
 
+    .tab button:hover {
+        border: solid 10px #dd1538;
+        padding-right: 60px;
+    }
+      
+    .tab button.active {
+        border: solid 8px #404b96;
+        padding-right: 60px;
+    }
+
     /*billederne i filter sektionen*/
     .campaign-filter .SUV{
         width: 180%;
@@ -1071,8 +1081,7 @@ footer p{
 
     /*sektioner*/
     .mild-hybrid{
-        margin-left: auto;
-        margin-right: auto;
+        margin: 30px auto 60px auto;
     }
 
     /*Sectionerne overskrift*/
@@ -1116,6 +1125,8 @@ footer p{
     /*sektionernes tekst*/
     .good-deals-camp p{
         font-size: 22px;
+        margin-bottom: 0px;
+        margin-bottom: 45px;
     }
 
     .hybrid-stationcar p{
