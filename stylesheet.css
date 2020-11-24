@@ -1126,4 +1126,58 @@ footer p{
     }
 
     /*____________________KAMPAGNESIDE SLUT____________________*/
+    /*____________________informationsside____________________ */
+
+
+    
+    /* galleriet */
+.section-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img3"
+   
+    ;
+    padding-top: 5%;
+}
+
+.gallery1{
+    width: 0px;
+  
+}
+
+.gallery2{
+    width: 0px;
+  
+}
+
+.gallery3{
+    width: 0px;
+   
+}
+
+
+.gallery4{
+    grid-area: img1;
+    width: auto;
+    margin-left: 38%;
+    margin-bottom: 10%;
+}
+
+.gallery5{
+    grid-area: img2;
+    width: auto;
+    margin-right: 38%;
+    margin-bottom: 10%;
+    justify-self: right;
+}
+
+.gallery6{
+    grid-area: img3;
+    width: auto;
+    margin-bottom: 5%;
+    justify-self: center;
+}
 }
