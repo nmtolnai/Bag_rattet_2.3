@@ -723,12 +723,12 @@ footer p{
 {
 	width: 80%;
 	height: auto;
-	margin: auto;
+	margin: 0px;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 10px;
+	padding: 150px;
 	border-radius: 10px;
-	background: #fff;
+	background: #E6EAEB;
 	box-shadow: 0px 0px 10px 0px #666;
 }
 
@@ -811,8 +811,15 @@ footer p{
     margin-right: auto;
 }
 
+.contact-form-btn:hover{
+    background-color: #dd1538;
+    box-shadow: 0px 15px 20px #f190a0;
+    color: white;
+    transform: translateY(-3px);
+}
+
 /*__________________________Medie Queries min. 767px___tablet__________________________*/
- @media screen and (min-width:767px){
+@media screen and (min-width:767px){
     /*____________________HEADER____________________*/
     header {
         background-image: url(./billeder/cover_tablet.jpg);
