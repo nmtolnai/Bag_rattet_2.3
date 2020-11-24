@@ -509,8 +509,6 @@ footer p{
 /*__________________________Information om bilerne-siden_____________________*/
 
 
-<<<<<<< HEAD
-=======
 /* kassen i top med knappen */
 .section-buy-information{
     display: grid;
@@ -721,7 +719,6 @@ footer p{
 
 /* __________________________SLUT MED INFORMATION___________________________ */
 
->>>>>>> 2b726d93960f6ec2aa741cf47a2ba8e6e8a410d3
 /*__________________________Book en prøvetur-siden___________________________*/
 
 
@@ -1279,4 +1276,5 @@ body
     }
 
     /*____________________KAMPAGNESIDE SLUT____________________*/
+}
 }
