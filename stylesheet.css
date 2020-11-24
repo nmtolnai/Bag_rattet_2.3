@@ -513,6 +513,228 @@ footer p{
 /*__________________________Information om bilerne-siden_____________________*/
 
 
+/* kassen i top med knappen */
+.section-buy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "Name Button"
+    "Price Button"
+    ;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 1px solid;
+
+}
+.section-buy h2{
+    grid-area: Name;
+    margin-left: 10px;
+    letter-spacing: 4px;
+    font-family: silverstone;
+    
+}
+
+.section-buy p{
+    grid-area: Price;
+    margin-left: 10px;
+}
+.section-buy button{
+    cursor: pointer;
+    border: 0;
+    background-color: #3FA043;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    border-radius: 90px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    color: #ffffff;
+    grid-area: Button;
+}
+
+/* model navn */
+.section-title{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: silverstone;
+}
+
+/* billede */
+.section-image1 img{
+  width: 375px;
+}
+
+.section-image2 img{
+  width: 0px;
+}
+
+/* sektion med highlight features */
+.section-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "title title"
+    "text text"
+    "seats1 km1"
+    "seats2 km2"
+    "co21 AWD1"
+    "co22 AWD2"
+    ;
+    background-color: #eceff6;
+}
+
+
+.section-info h1{
+    text-align: center;
+    color: #3a4255;
+    
+}
+
+.headline{
+    grid-area: title;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    letter-spacing: 4px;
+    font-family: silverstone;
+    font-size: 22px;
+
+}
+
+.section-info p{
+    text-align: center;
+}
+
+.underline{
+    grid-area: text;
+    font-size: 15px;
+    padding-bottom: 5%;
+}
+
+.seats1{
+    grid-area: seats1;
+}
+
+.seats2{
+    grid-area: seats2;
+      padding-bottom: 15%;
+}
+
+.km1{
+    grid-area: km1;
+}
+
+.km2{
+    grid-area: km2;
+      padding-bottom: 15%;
+}
+
+.co21{
+    grid-area: co21;
+}
+
+.co22{
+    grid-area: co22;
+    padding-bottom: 15%;
+}
+
+.AWD1{
+    grid-area: AWD1;
+}
+
+.AWD2{
+    grid-area: AWD2;
+    padding-bottom: 15%;
+}
+
+/* galleriet */
+.section-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img3"
+   
+    ;
+    padding-top: 5%;
+}
+
+.gallery1{
+    grid-area: img1;
+    width: auto;
+    margin-left: 20%;
+    margin-bottom: 15%;
+}
+
+.gallery2{
+    grid-area: img2;
+    width: auto;
+    margin-right: 20%;
+    margin-bottom: 15%;
+   justify-self: right;
+}
+
+.gallery3{
+    grid-area: img3;
+    width: auto;
+    margin-bottom: 10%; 
+    justify-self: center;
+}
+
+.gallery4{
+    width: 0px;
+}
+
+.gallery5{
+    width: 0px;
+}
+
+.gallery6{
+    width: 0px;
+}
+
+/* sektion med tekst */
+.section-text{
+    background-color: #eceff6;
+    padding: 10%;
+    font-weight: lighter;
+}
+
+.section-text h1{
+    text-align: center;
+    color: #3A4255;
+    font-family: silverstone;
+    font-size: 22px;
+}
+
+.section-text p{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* knappen i bunden af siden */
+.section-button button{
+    cursor: pointer;
+    border: 0;
+    background-color: #3FA043;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: #ffffff;
+    border-radius: 90px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20%;
+}
 
 
 
