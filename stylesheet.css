@@ -726,8 +726,11 @@ footer p{
 
 /*__________________________Kontakt-siden____________________________________*/
 .textcontainer p{
-    margin-left: 10px;
-    padding-right: 40px;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding-right: 200px;
+    letter-spacing: 1px;
+    line-height: 30px;
 }
 
 
