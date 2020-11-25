@@ -725,6 +725,12 @@ footer p{
 
 
 /*__________________________Kontakt-siden____________________________________*/
+.textcontainer p{
+    margin-left: 10px;
+    padding-right: 40px;
+}
+
+
 .contact-in
 {
 	width: 70%;
@@ -735,7 +741,8 @@ footer p{
 	padding: 50px;
 	border-radius: 0px;
 	background: #E6EAEB;
-	box-shadow: 0px 0px 0px 0px #666;
+    box-shadow: 0px 0px 0px 0px #666;
+    margin-left: 10%;
 }
 
 .contact-map
