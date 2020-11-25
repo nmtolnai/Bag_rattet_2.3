@@ -654,7 +654,7 @@ footer p{
     padding-top: 5%;
 }
 
-.gallery1{
+.gallery1-information{
     grid-area: img1;
     width: auto;
     margin-left: 20%;
@@ -662,7 +662,7 @@ footer p{
     justify-self: left;
 }
 
-.gallery2{
+.gallery2-information{
     grid-area: img2;
     width: auto;
     margin-right: 20%;
@@ -670,22 +670,22 @@ footer p{
     justify-self: right;
 }
 
-.gallery3{
+.gallery3-information{
     grid-area: img3;
     width: auto;
     margin-bottom: 10%; 
     justify-self: center;
 }
 
-.gallery4{
+.gallery4-information{
     width: 0px;
 }
 
-.gallery5{
+.gallery5-information{
     width: 0px;
 }
 
-.gallery6{
+.gallery6-information{
     width: 0px;
 }
 
@@ -1171,4 +1171,182 @@ footer p{
     }
 
     /*____________________KAMPAGNESIDE SLUT____________________*/
+    /*____________________informationsside____________________ */
+
+/* kassen i top med knappen */
+.section-buy-information{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "Name Price Bank Button"
+    ;
+}
+.section-buy-information h2{
+    grid-area: Name;
+    text-align: center;
+    margin: auto;
+    font-size: 40px;
+}
+
+.section-buy-information p{
+    grid-area: Price;
+    text-align: left;
+    font-size: 25px;
+    margin: auto;
+}
+.section-buy-information button{
+    margin-left: 70px;
+
+}
+
+
+
+/* billede */
+.section-image1-information img{
+    width: 0px;
+  }
+  
+  .section-image2-information img{
+    width: 100%;
+  }
+   /* sektion med info */
+   .section-info-information h1{
+    font-size: 33px;
+}
+
+
+
+  .headline-information{
+    grid-area: title;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.underline-information{
+    grid-area: text;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.seats1-information{
+    grid-area: seats1;
+    font-size:30px;
+}
+
+.seats2-information{
+    grid-area: seats2;
+      padding-bottom: 15%;
+      font-size:20px;
+}
+
+.km1-information{
+    grid-area: km1;
+    font-size:30px;
+}
+
+.km2-information{
+    grid-area: km2;
+      padding-bottom: 15%;
+      font-size:20px;
+}
+
+.co21-information{
+    grid-area: co21;
+    font-size:30px;
+}
+
+.co22-information{
+    grid-area: co22;
+    padding-bottom: 15%;
+    font-size:20px;
+}
+
+.AWD1-information{
+    grid-area: AWD1;
+    font-size:30px;
+}
+
+.AWD2-information{
+    grid-area: AWD2;
+    padding-bottom: 15%;
+    font-size:20px;
+}
+
+    
+    /* galleriet */
+.section-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img3"
+   
+    ;
+    padding-top: 5%;
+}
+
+.gallery1-information{
+    width: 0px;
+  
+}
+
+.gallery2-information{
+    width: 0px;
+  
+}
+
+.gallery3-information{
+    width: 0px;
+   
+}
+
+
+.gallery4-information{
+    grid-area: img1;
+    width: auto;
+    margin-left: 38%;
+    margin-bottom: 10%;
+}
+
+.gallery5-information{
+    grid-area: img2;
+    width: auto;
+    margin-right: 38%;
+    margin-bottom: 10%;
+    justify-self: right;
+}
+
+.gallery6-information{
+    grid-area: img3;
+    width: auto;
+    margin-bottom: 5%;
+    justify-self: center;
+}
+
+
+/* sektion med tekst */
+.section-text-information{
+    padding: 5%;
+    font-weight: lighter;
+}
+
+.section-text-information h1{
+    text-align: center;
+   
+}
+
+.section-text-information p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 25px;
+}
+
+
+
 }
