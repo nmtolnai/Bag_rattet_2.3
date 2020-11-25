@@ -1313,14 +1313,14 @@ footer p{
 .gallery4-information{
     grid-area: img1;
     width: auto;
-    margin-left: 38%;
+    margin-left: 50%;
     margin-bottom: 10%;
 }
 
 .gallery5-information{
     grid-area: img2;
     width: auto;
-    margin-right: 38%;
+    margin-right: 50%;
     margin-bottom: 10%;
     justify-self: right;
 }
