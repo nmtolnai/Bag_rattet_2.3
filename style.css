@@ -325,38 +325,21 @@ footer p{
 }
 /*SLUT - Footer*/
 
-
-@media only screen and (min-width: 812px) {
-  
-  header img {
-  width: 20%;
-  margin-left: 10px;
+@media(max-width: 568px) {
+  nav{
+      display: none;
   }
-
-  .navigation-auto{
-    position: absolute;
-    display: flex;
-    width: 375px;
-    justify-content: center;
-    margin-top: 400px;
-    margin-left: 217px;
+  nav a{
+      display: none;
   }
-
-  .btn {
-    margin-left: 40%;
-}
-  .btn2 {    
-    margin-left: 26%;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
-.top-box p {
-  margin-bottom: 30px;
+@media screen and (min-width: 1000px){
+  nav a{
+      padding-left: 3rem;
+      padding-right: 3rem;
+      font-size: 2rem;
+      }
 }
-
-
-}
-
 
 
