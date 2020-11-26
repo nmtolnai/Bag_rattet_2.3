@@ -745,18 +745,6 @@ body{
 	padding: 20px 15px;
 }
 
-.container:after{
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-	background: url("./billeder/pladsholder.jpg") no-repeat center;
-	background-size: cover;
-	filter: blur(30px);
-	z-index: -1;
-}
 .contact-box{
 	max-width: 850px;
 	display: grid;
