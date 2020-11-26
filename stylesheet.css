@@ -915,13 +915,13 @@ grid-area: picture;
     text-align: center;
     color: #404B96;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 42px;
+    font-size: 22px;
 }
 
 .section-text-information p{
     margin-top: 10%;
     margin-bottom: 10%;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -1635,6 +1635,7 @@ textarea{
 
 .section-text-information h1{
     text-align: center;
+    font-size: 42px;
    
 }
 
