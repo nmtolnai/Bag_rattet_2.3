@@ -205,18 +205,36 @@ footer p{
 .top-container-forside {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-area: "picture text";
+    grid-template-areas: "picture text";
 }
 
 .top-box-forside {
     grid-area: picture;
 }
-.price {
-    color:black;
-    font-size: 20px;
-}
 
 .column2-forside {
+    grid-area: text;
+    margin: 30px;
+}
+
+.overskrift-1-forside {
+    margin-bottom: 20px;
+}
+
+.brødtekst-1-forside {
+    margin-bottom: 20px;
+}
+
+.top-container2-forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "text picture";
+}
+.top-box2-forside {
+grid-area: picture;
+}
+
+.btn2-forside {
     grid-area: text;
 }
 
